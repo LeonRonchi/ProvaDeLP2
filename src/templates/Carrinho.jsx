@@ -1,5 +1,6 @@
 import GradeProdutos from "../componentes/GradeProdutos";
 import { useState } from "react";
+import App from "../App";
 export default function Carrinho(props) {
     return (
         <div style={{
