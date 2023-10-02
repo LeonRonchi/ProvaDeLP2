@@ -1,3 +1,5 @@
+import GradeProdutos from "../componentes/GradeProdutos";
+import { useState } from "react";
 export default function Carrinho(props) {
     return (
         <div style={{
@@ -49,7 +51,7 @@ export default function Carrinho(props) {
                 <p style={{
                     margin: '0px',
                     padding: '0px',
-                }}>{props.qtdCarrinho || 0} item</p>
+                }}>{props.quantidadeCarrinho || 0} item</p>
             </div>
             <div id='segurança' style={{
                 display: 'flex',
