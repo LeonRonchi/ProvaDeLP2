@@ -25,6 +25,7 @@ function App() {
       <Cabecalho/>
       <BarraBusca/>
       <GradeProdutos listaProdutos={produtos}
+      quantidadeCarrinho={quantidadeCarrinho}
       atualizarQuantidadeCarrinho={atualizarQuantidadeCarrinho}/>
     </div>
   );

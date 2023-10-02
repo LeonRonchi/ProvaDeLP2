@@ -1,7 +1,9 @@
 import GradeProdutos from "../componentes/GradeProdutos";
-import { useState } from "react";
-import App from "../App";
+import { useEffect, useState } from "react";
 export default function Carrinho(props) {
+    useEffect(()=>{
+
+    },[props.quantidadeCarrinho])
     return (
         <div style={{
             display: 'flex',
